@@ -1,0 +1,44 @@
+.qs-orgchart {
+	color: #666;
+}
+.qs-orgchart .node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+.qs-orgchart .text {
+  font-size: 10px;
+}
+.qs-orgchart .link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1px;
+}
+.qs-orgchart #suit {
+  fill: #666;
+}
+.qs-orgchart #licensing {
+  fill: green;
+}
+.qs-orgchart .link.licensing {
+  stroke: green;
+}
+.qs-orgchart .link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+.qs-orgchart div.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  font: 12px sans-serif;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  border: 2px solid #ccc;
+}
+.qs-orgchart div.tooltip label {
+  color: #4AB248;
+}

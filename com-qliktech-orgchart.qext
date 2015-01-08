@@ -1,0 +1,9 @@
+{
+	"name" : "Org Chart",
+	"description" : "Org Chart Extension Example",
+	"icon" : "bar-chart-vertical",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "bar",
+	"author": "Manuel Romero - Qlik Labs"
+}
