@@ -28,17 +28,20 @@
 .qs-orgchart div.tooltip {
   position: absolute;
   text-align: left;
-  width: 200px;
+  min-width: 200px;
   height: auto;
   padding: 5px;
-  font: 12px sans-serif;
+  font-size: 12px;
   color: white;
-  background: rgba(0, 0, 0, 0.8);
+  background: #444444;
   border: 0px;
   border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
   pointer-events: none;
   border: 2px solid #ccc;
 }
 .qs-orgchart div.tooltip label {
-  color: #4AB248;
+	font-weight: bold;
+  	color: #4AB248;
 }

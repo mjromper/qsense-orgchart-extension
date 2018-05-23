@@ -1,5 +1,6 @@
 com-qliktech-orgchart.js;
 orgchart-properties.js;
-com-qliktech-orgchart.qext;
+libs/qs-orgchart.js;
 orgchart.css;
+com-qliktech-orgchart.qext;
 person.png
